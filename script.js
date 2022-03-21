@@ -17,8 +17,6 @@ function compute()
         document.getElementById("principal").focus();
         return false;
     }
-    
-
 
     content = `If you deposit <mark>${principal}</mark>, \<br\>` +
     `at an interest rate of <mark>${rate}%</mark>. \<br\>` +
