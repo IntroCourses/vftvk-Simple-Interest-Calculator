@@ -14,6 +14,7 @@ function compute()
 
     if (principal <= 0) {
         alert("Ener a positive number");
+        document.getElementById("principal").focus();
         return false;
     }
     
