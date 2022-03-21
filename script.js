@@ -20,10 +20,10 @@ function compute()
     
 
 
-    content = `If you deposit ${principal}, \<br\>` +
-    `at an interest rate of ${rate}%. \<br\>` +
-    `You will recieve an amount of ${interest},\<br\>` +
-    `in the year ${year}.`;
+    content = `If you deposit <mark>${principal}</mark>, \<br\>` +
+    `at an interest rate of <mark>${rate}%</mark>. \<br\>` +
+    `You will recieve an amount of <mark>${interest}</mark>,\<br\>` +
+    `in the year <mark>${year}<\mark>.`;
 
     result.innerHTML = content;
 

@@ -7,7 +7,7 @@ h1{color:gray; font-family: Verdana;}
     width: 300px;
     padding: 20px;
     border-radius: 25px;
-    align-content: center
+    align-items: center;
 }
 
 
